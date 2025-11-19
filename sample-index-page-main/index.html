@@ -1,15 +1,221 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Website Template (Please update for full credit)</title>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>HP Concert Series – John Hinckley Jr.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Optional Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-mark">
+        <span class="logo-top">HP</span>
+        <span class="logo-bottom">CONCERT SERIES</span>
+      </div>
+      <nav class="main-nav">
+        <a href="#event">Event</a>
+        <a href="#about">About</a>
+        <a href="#context">Why Highland Park?</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
 
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	
+  <!-- HERO / FAKE PROMO -->
+  <section class="hero" id="event">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">THE HP CONCERT SERIES PRESENTS</p>
+      <h1 class="hero-title">
+        JOHN<br />
+        HINCKLEY JR.
+      </h1>
+
+      <div class="hero-meta">
+        <div class="meta-block">
+          <span class="meta-label">DATE</span>
+          <span class="meta-value">21 DEC 2025</span>
+        </div>
+        <div class="meta-block">
+          <span class="meta-label">TIME</span>
+          <span class="meta-value">6:00 PM – 8:00 PM</span>
+        </div>
+        <div class="meta-block">
+          <span class="meta-label">VENUE</span>
+          <span class="meta-value">
+            Gazebo @ Centennial Park<br />
+            3806 University Blvd, Highland Park
+          </span>
+        </div>
+        <div class="meta-block">
+          <span class="meta-label">TICKETS</span>
+          <span class="meta-value accent-text">FREE / OPEN TO PUBLIC</span>
+        </div>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary">Event Details</a>
+        <a href="#context" class="btn btn-ghost">About the Project</a>
+      </div>
+
+      <p class="hero-tagline">
+        An “acoustic evening of original music” in the heart of Highland Park.*
+      </p>
+      <p class="hero-disclaimer">
+        *No actual performance will take place. See below for full context.
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT THE EVENT / REVEAL -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">What Is This Event?</h2>
+      <p class="lead">
+        This website and the accompanying posters are part of a
+        <strong>social-practice art project</strong> staged in Highland Park, Texas.
+        It uses the unlikely premise of a John Hinckley Jr. “community concert”
+        to examine how affluent neighborhoods talk about — and avoid talking about —
+        mental health, public disturbance, and “uncomfortable” people.
+      </p>
+
+      <div class="split">
+        <div>
+          <h3>Not a Real Concert</h3>
+          <p>
+            No performance has been booked. No tickets are being sold. John Hinckley Jr.
+            is not scheduled to appear. The event information on the posters is intentionally
+            convincing at first glance, but ultimately fictional.
+          </p>
+          <p>
+            The goal is not to glamorize violence or notoriety. The goal is to
+            <strong>surface the tension</strong> between a pristine public image and the
+            very real private struggles that exist in every community, including Highland Park.
+          </p>
+        </div>
+        <div>
+          <h3>Why a Concert Poster?</h3>
+          <p>
+            Concert posters feel harmless, friendly, and routine. They blend into the visual noise
+            of coffee shops, park bulletin boards, and neighborhood poles. By placing a deeply
+            unsettling name into that friendly format, the project asks:
+          </p>
+          <ul class="bullet-list">
+            <li>What kind of harm are we comfortable ignoring?</li>
+            <li>Who gets compassion, and who gets erased?</li>
+            <li>What do we choose to keep “off the lawn” and out of sight?</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTEXT / HIGHLAND PARK -->
+  <section class="section section-dark" id="context">
+    <div class="container">
+      <h2 class="section-title">Why Highland Park?</h2>
+      <p class="lead">
+        Highland Park is known for manicured lawns, quiet streets, and tightly curated public life.
+        It is also a place, like many affluent communities, where distress is often
+        <strong>handled quietly</strong>:
+        sent to wilderness programs, private rehabs, or behind closed doors.
+      </p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Visible vs. Invisible</h3>
+          <p>
+            A loud, visibly unstable person in public is treated as a disruption.
+            A quiet crisis behind a brick wall is treated as a private matter.
+            This project sits in between those two spaces.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Safety or Silence?</h3>
+          <p>
+            When neighborhoods prioritize smooth surfaces and pleasant optics,
+            difficult conversations can be pushed away in the name of “safety”
+            and “standards.” Silence becomes a kind of policy.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Public Space as Stage</h3>
+          <p>
+            By using park space, utility poles, and digital flyers, the project treats
+            the neighborhood itself as a stage, asking residents to notice what they’re
+            comfortable seeing — and what they are not.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Questions &amp; Clarifications</h2>
+
+      <div class="faq-item">
+        <h3>Is this a real concert?</h3>
+        <p>
+          No. There is no scheduled performance. The posters, website, and social media accounts
+          exist solely as components of an art and research project on mental health,
+          visibility, and community image.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Does this project support or endorse John Hinckley Jr.?</h3>
+        <p>
+          No. The project does not endorse Hinckley, his past actions, or political violence
+          of any kind. His name is used as a symbol of discomfort, notoriety, and the way
+          society processes people who have caused harm and later reappear in public life.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Why use something so provocative?</h3>
+        <p>
+          Because neighborhoods often respond more strongly to uncomfortable symbols
+          than to quiet, everyday suffering. The provocation is meant to open
+          space for honest conversation, not to shock for its own sake.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Who created this project?</h3>
+        <p>
+          This site and the accompanying materials were created as part of an academic
+          and artistic exploration of mental health, community standards, and suburban
+          identity in North Texas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-logo">HP CONCERT SERIES</p>
+        <p class="footer-note">
+          A conceptual project exploring how communities talk about mental health,
+          discomfort, and public image.
+        </p>
+      </div>
+      <div class="footer-meta">
+        <p><strong>Instagram</strong><br />@hpconcertseries</p>
+        <p><strong>Website</strong><br />hpconcertseries.live</p>
+        <p class="footer-disclaimer">
+          This is an art project. No performance is scheduled. No tickets are for sale.
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
