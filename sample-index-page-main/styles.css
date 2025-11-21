@@ -419,3 +419,9 @@ body {
   margin: 0.55rem 0 0.8rem;
   display: block;
 }
+
+.logo-link:hover .logo-mark {
+  box-shadow: 0 0 18px rgba(255, 90, 47, 0.35);
+  transform: translateY(-1px);
+  transition: 0.2s ease;
+}
