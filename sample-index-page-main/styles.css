@@ -396,6 +396,10 @@ body {
   margin-top: 2rem;
 }
 
+.poster-grid {
+  justify-content: center;
+}
+
 .poster-grid img {
   width: 100%;
   max-width: 260px;
