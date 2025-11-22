@@ -363,13 +363,12 @@ body {
 
 @media (max-width: 768px) {
   .header-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
+    flex-direction: row;
+    gap: 1rem;
   }
 
   .main-nav {
-    display: flex;
+    display: none; /* keep header clean on phone; can add burger later */
   }
 }
 
