@@ -400,8 +400,7 @@ body {
   justify-content: center;
 }
 
-.poster-grid img
-.poster-grid vid{
+.poster-grid img{
   width: 100%;
   max-width: 340px;
   height: auto;
@@ -412,8 +411,7 @@ body {
   cursor: pointer;
 }
 
-.poster-grid img:hover
-.poster-grid vid:hover{
+.poster-grid img:hover{
   transform: scale(1.03);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
