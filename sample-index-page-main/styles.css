@@ -454,7 +454,7 @@ body {
 }
 
 .video-container {
-  position: relative;
+  position: center;
   width: 70%;
   padding-bottom: 56.25%; /* 16:9 ratio */
   height: 0;
